@@ -11,7 +11,7 @@ A curated list of rules for the Versions Maven Plugin that excludes any non-rele
     <version>${versions-maven-plugin.version}</version>
     <configuration>
         <generateBackupPoms>false</generateBackupPoms>
-        <rulesUri>https://raw.githubusercontent.com/movewp3/version-rules/version-rules.xml</rulesUri>
+        <rulesUri>https://raw.githubusercontent.com/movewp3/version-rules/master/version-rules.xml</rulesUri>
     </configuration>
 </plugin>
 ```
