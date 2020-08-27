@@ -7,6 +7,7 @@
         <ignoreVersion type="regex">.*[.-](Alpha|alpha|ALPHA)(-?)\d*</ignoreVersion>
         <ignoreVersion type="regex">.*[.-](Beta|beta|BETA)(-?)\d*</ignoreVersion>
         <ignoreVersion type="regex">.*b\d+</ignoreVersion>
+        <ignoreVersion type="regex">.*-b.*</ignoreVersion>
         <ignoreVersion type="regex">.*-c(e|cs)</ignoreVersion>
         <ignoreVersion type="regex">.*ea\d+</ignoreVersion>
         <ignoreVersion type="regex">.*-m\d+</ignoreVersion>
@@ -16,6 +17,7 @@
         <ignoreVersion type="regex">.*-(RC|rc)\d+</ignoreVersion>
         <ignoreVersion type="regex">.*\.(RC|rc)\d+</ignoreVersion>
         <ignoreVersion type="regex">.*\.pr\d+</ignoreVersion>
+        <ignoreVersion type="regex">.*u\d+</ignoreVersion>
         <ignoreVersion type="regex">\d+</ignoreVersion>
       </ignoreVersions>
     </rule>
