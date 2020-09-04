@@ -9,6 +9,7 @@
         <ignoreVersion type="regex">.*b\d+</ignoreVersion>
         <ignoreVersion type="regex">.*-b.*</ignoreVersion>
         <ignoreVersion type="regex">.*-c(e|cs)</ignoreVersion>
+        <ignoreVersion type="regex">.*\.CR\d+</ignoreVersion>
         <ignoreVersion type="regex">.*ea\d+</ignoreVersion>
         <ignoreVersion type="regex">.*-m\d+</ignoreVersion>
         <ignoreVersion type="regex">.*-M\d+</ignoreVersion>
