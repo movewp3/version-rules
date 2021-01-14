@@ -15,11 +15,17 @@
         <ignoreVersion type="regex">.*-M\d+</ignoreVersion>
         <ignoreVersion type="regex">.*\.M\d+</ignoreVersion>
         <ignoreVersion type="regex">.*-(MS)\d+</ignoreVersion>
-        <ignoreVersion type="regex">.*-(RC|rc)\d+</ignoreVersion>
+        <ignoreVersion type="regex">.*-(RC|rc)(\.)?\d+</ignoreVersion>
         <ignoreVersion type="regex">.*\.(RC|rc)\d+</ignoreVersion>
         <ignoreVersion type="regex">.*\.pr\d+</ignoreVersion>
         <ignoreVersion type="regex">.*u\d+</ignoreVersion>
         <ignoreVersion type="regex">\d+</ignoreVersion>
+        <ignoreVersion type="regex">\d{5,}\.\d{5,}</ignoreVersion>
+      </ignoreVersions>
+    </rule>
+    <rule groupId="org.glassfish.jaxb" artifactId="jaxb-runtime">
+      <ignoreVersions>
+        <ignoreVersion type="regex">3\..*</ignoreVersion>
       </ignoreVersions>
     </rule>
   </rules>
